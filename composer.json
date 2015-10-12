@@ -1,0 +1,26 @@
+{
+    "name": "dracony/trixie",
+    "type": "library",
+    "description" : "Trixie bundle",
+    "license" : "BSD",
+    "autoload": {
+        "psr-4": {
+            "": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require": {
+        "phpixie/default-bundle": "~3.0",
+        "phpixie/bundle-framework": "~3.0"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.*-dev"
+        }
+    }
+}
